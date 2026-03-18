@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alphastylee.oo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Alphastylee.oo</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#shop">Shop</a>
+    <a href="#cart">Cart (<span id="cart-count">0</span>)</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>🔥 Premium Men's Collection</h2>
+  <p>Upgrade your style with Alphastylee</p>
+</section>
+
+<section id="shop" class="products">
+
+  <div class="card">
+    <img src="https://via.placeholder.com/200">
+    <h3>Classic T-Shirt</h3>
+    <p>₹499</p>
+    <button onclick="addToCart('Classic T-Shirt',499)">Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/200">
+    <h3>Denim Jeans</h3>
+    <p>₹999</p>
+    <button onclick="addToCart('Denim Jeans',999)">Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/200">
+    <h3>Stylish Jacket</h3>
+    <p>₹1499</p>
+    <button onclick="addToCart('Stylish Jacket',1499)">Add to Cart</button>
+  </div>
+
+</section>
+
+<section id="cart" class="cart">
+  <h2>Your Cart</h2>
+  <ul id="cart-items"></ul>
+  <h3>Total: ₹<span id="total">0</span></h3>
+  <button onclick="checkout()">Order on WhatsApp</button>
+</section>
+
+<footer>
+  <p>© 2026 Alphastylee.oo | Men's Fashion</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
