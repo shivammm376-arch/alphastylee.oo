@@ -1,0 +1,62 @@
+body { margin:0; font-family: Arial; }
+
+header {
+  background: #000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px;
+  background: #f2f2f2;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 220px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+button {
+  background: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.cart {
+  padding: 20px;
+  background: #fafafa;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: black;
+  color: white;
+}
